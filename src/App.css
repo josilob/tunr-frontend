@@ -1,11 +1,30 @@
 .App {
-  text-align: center;
+  background-color: white;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+hr {
+  display: block;
+  width: 90%;
+  background-color: red;
+  height: 2px;
+}
+
+h1 {
+  text-align: left;
+  font-family: 'Anton', sans-serif;
+}
+
+h6 {
+  text-align: right;
+  font-family: 'Inconsolata', monospace;
+  color: black;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -35,4 +54,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.songForm {
+  display: grid;
+  display: flex;
+  justify-content: space-between;
 }
