@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Header from './Header.js';
 import { Route, Link, Switch } from "react-router-dom";
 import Form from './Form'
 import Display from './Display'
@@ -71,7 +72,8 @@ function App() {
   
   return (
     <Router>
-    <div className="App">
+    <div className="App">    
+     <Header />
       <h3>ADD A NEW Song</h3>
       <main>
         <Switch>
