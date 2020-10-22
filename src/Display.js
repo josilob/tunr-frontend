@@ -1,16 +1,12 @@
-// import React from "react";
+import React from 'react';
 
-// const Display = (props) => {
-//     const { playlist } = props;
+const Display = (props) => {
+    const { songs } = props;
+    console.log(songs)
+    return(
+        <>
+        </>
+    )
+}
 
-//     const loaded = () => (
-//         <div style = {{ textAlign: "left" }}
-//         >
-//             {playlist.map(playlist => (
-//                 <
-//             ))}
-//         </div>
-//     )
-// }
-
-// export default Display;
+export default Display;
